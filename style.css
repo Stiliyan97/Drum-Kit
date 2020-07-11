@@ -1,0 +1,43 @@
+html,body{
+	margin:0;
+	padding: 0;
+	background-image: url('images/drum_background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+.container{
+	height: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.key{
+	color: white;
+	border: 1px solid white;
+	padding:2em;
+	margin: 2em;
+	transition: 0.07s;
+	background-color: black;
+	text-align: center;
+}
+
+.playing{
+	border: 1px solid gold;
+	transform: scale(1.5,1.5);
+}
+
+.kbd{
+	display: block;
+	padding: 0.6em;
+	font-size:2em;
+}
+
+.sound{
+	color: gray;
+}
